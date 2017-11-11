@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "QrGen",
+  "version": "1.11",
+  "author": "mohamed sakhir",
+  "description": "Simple addon to make Qrcode from tab link ",
+
+  "icons": {
+    "64": "icon/qr-code-64.png"
+  },
+
+  "browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "24": "icon/qr-code-24.png",
+    "32": "icon/qr-code-32.png",
+    "64": "icon/qr-code-64.png"
+  },
+  "default_title": "click to make qrcode",
+  "default_popup": "qr.html"
+  },
+
+  "permissions": ["tabs","activeTab","downloads"]
+
+}
