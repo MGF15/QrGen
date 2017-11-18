@@ -1,2 +1,2 @@
 # QrGen
-Firefox extension to show qrcode from tab url
+Firefox extension to make Qr Code from tab url , selected text and any link on a any webpage.
