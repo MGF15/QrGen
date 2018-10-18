@@ -21,12 +21,12 @@ browser.contextMenus.create({
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
     
-    if (info.selectionText != undefined && info.linkUrl == ""){
+    if (info.selectionText != undefined){
 	qrdata = "qrtext";
 	info = info.selectionText;
       
 	}
-    else if(info.linkUrl != ""){
+    else if(info.linkUrl != undefined){
 	qrdata = "qrlink";
 	info = info.linkUrl;
 	}
